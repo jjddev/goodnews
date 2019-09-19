@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		16801DFB232EDDE3003CED32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16801DFA232EDDE3003CED32 /* AppDelegate.swift */; };
 		16801DFD232EDDE3003CED32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16801DFC232EDDE3003CED32 /* SceneDelegate.swift */; };
-		16801DFF232EDDE3003CED32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16801DFE232EDDE3003CED32 /* ViewController.swift */; };
 		16801E02232EDDE3003CED32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16801E00232EDDE3003CED32 /* Main.storyboard */; };
 		16801E04232EDDE5003CED32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16801E03232EDDE5003CED32 /* Assets.xcassets */; };
 		16801E07232EDDE5003CED32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16801E05232EDDE5003CED32 /* LaunchScreen.storyboard */; };
@@ -17,13 +16,13 @@
 		16BDF5E92331CC5C0088C909 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BDF5E82331CC5C0088C909 /* NewsListTableViewController.swift */; };
 		16BDF5EC2331CE450088C909 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BDF5EB2331CE450088C909 /* Article.swift */; };
 		16BDF5EF2331D53E0088C909 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BDF5EE2331D53E0088C909 /* ArticleViewModel.swift */; };
+		16C5D7D7233302B100DA6628 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C5D7D6233302B100DA6628 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16801DF7232EDDE3003CED32 /* goodnews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goodnews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16801DFA232EDDE3003CED32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16801DFC232EDDE3003CED32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		16801DFE232EDDE3003CED32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16801E01232EDDE3003CED32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16801E03232EDDE5003CED32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16801E06232EDDE5003CED32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +31,7 @@
 		16BDF5E82331CC5C0088C909 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		16BDF5EB2331CE450088C909 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		16BDF5EE2331D53E0088C909 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		16C5D7D6233302B100DA6628 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +64,13 @@
 		16801DF9232EDDE3003CED32 /* goodnews */ = {
 			isa = PBXGroup;
 			children = (
+				16C5D7D52333029500DA6628 /* Cells */,
 				16BDF5ED2331D5240088C909 /* ViewModels */,
 				16BDF5EA2331CE360088C909 /* Models */,
 				16BDF5E52331CA5C0088C909 /* Controllers */,
 				16BDF5E32331CA470088C909 /* Service */,
 				16801DFA232EDDE3003CED32 /* AppDelegate.swift */,
 				16801DFC232EDDE3003CED32 /* SceneDelegate.swift */,
-				16801DFE232EDDE3003CED32 /* ViewController.swift */,
 				16801E00232EDDE3003CED32 /* Main.storyboard */,
 				16801E03232EDDE5003CED32 /* Assets.xcassets */,
 				16801E05232EDDE5003CED32 /* LaunchScreen.storyboard */,
@@ -109,6 +109,14 @@
 				16BDF5EE2331D53E0088C909 /* ArticleViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		16C5D7D52333029500DA6628 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				16C5D7D6233302B100DA6628 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16801DFF232EDDE3003CED32 /* ViewController.swift in Sources */,
 				16801DFB232EDDE3003CED32 /* AppDelegate.swift in Sources */,
 				16BDF5EC2331CE450088C909 /* Article.swift in Sources */,
 				16BDF5E72331CA730088C909 /* Webservice.swift in Sources */,
 				16BDF5E92331CC5C0088C909 /* NewsListTableViewController.swift in Sources */,
 				16BDF5EF2331D53E0088C909 /* ArticleViewModel.swift in Sources */,
+				16C5D7D7233302B100DA6628 /* ArticleTableViewCell.swift in Sources */,
 				16801DFD232EDDE3003CED32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
