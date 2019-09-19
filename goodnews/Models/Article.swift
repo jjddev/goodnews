@@ -10,10 +10,10 @@ import Foundation
 
 
 struct ArticleList: Decodable {
-    let Articles: [Article]
+    let articles: [Article]
 }
 struct Article: Decodable {
-    let Title: String
-    let Description: String
+    let title: String
+    let description: String
     
 }

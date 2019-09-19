@@ -6,10 +6,14 @@
 //  Copyright © 2019 juliano jose dziadzio. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
-class ArticleTableViewCell : UITableViewCell{
+class ArticleTableViewCell: UITableViewCell {
+
+
     @IBOutlet weak var titleLabel: UILabel!
+    
     @IBOutlet weak var descriptionLabel: UILabel!
+    
+
 }

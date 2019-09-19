@@ -9,7 +9,7 @@
 import Foundation
 
 struct ArticleListViewModel {
-    let articles: [Article]
+    let articles: [Article]!
 }
 
 
@@ -43,11 +43,11 @@ extension ArticleViewModel {
 
 extension ArticleViewModel {
     var title: String {
-        return self.article.Title
+        return self.article.title
     }
     
     var description: String {
-        return self.article.Description
+        return self.article.description
     }
 }
 

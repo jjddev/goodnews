@@ -22,8 +22,8 @@ class NewsListTableViewController: UITableViewController {
     private func setup(){
         navigationController?.navigationBar.prefersLargeTitles = true
 
-        
-        Webservice().getArticles(url: URL(string: apiUrl)!) { articles  in
+        let url = URL(string: apiUrl)!
+        Webservice().getArticles(url: url) { articles  in
             if let _articles = articles {
                 self.articleListVM = ArticleListViewModel(articles: _articles)
                 

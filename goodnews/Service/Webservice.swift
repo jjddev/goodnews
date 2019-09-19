@@ -15,12 +15,15 @@ class Webservice {
                 print(error.localizedDescription)
                 completion(nil)
             } else if let _data = data {
-                let articles = try? JSONDecoder().decode(ArticleList.self, from: _data).Articles
-                if let _articles = articles {
-                    print(_articles)
-                    completion(_articles)
+                print(_data)
+                
+                let _articles = try! JSONDecoder().decode(ArticleList.self, from: _data)
+                
+                    // print(_articles)
+                    completion(_articles.articles)
                     
-                }
+               
+              
             }
         }.resume()
     }

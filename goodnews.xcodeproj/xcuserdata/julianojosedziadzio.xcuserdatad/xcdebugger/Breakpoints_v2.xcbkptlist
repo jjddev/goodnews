@@ -179,22 +179,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C0C53D31-C9B0-4220-9585-5E45D9AAC3E2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "goodnews/Service/Webservice.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "getArticles(url:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E4D85916-C2B2-4215-BC41-7BEB15D90779"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -212,7 +196,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "696733C5-7A61-4160-A042-F6F13A355F9C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "goodnews/Service/Webservice.swift"
@@ -221,6 +205,147 @@
             startingLineNumber = "12"
             endingLineNumber = "12"
             landmarkName = "getArticles(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2557B1A-2D9C-4761-91A0-60223FD67759"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "goodnews/Cells/ArticleTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ArticleTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C2557B1A-2D9C-4761-91A0-60223FD67759 - 646f94de52985747"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "goodnews.ArticleTableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; goodnews.ArticleTableViewCell"
+                  moduleName = "goodnews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/julianojosedziadzio/Documents/projetos/goodnews/goodnews/Cells/ArticleTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "C2557B1A-2D9C-4761-91A0-60223FD67759 - 1ebfb483451327ed"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "goodnews.ArticleTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; goodnews.ArticleTableViewCell"
+                  moduleName = "goodnews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/julianojosedziadzio/Documents/projetos/goodnews/goodnews/Cells/ArticleTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "C2557B1A-2D9C-4761-91A0-60223FD67759 - 8526b699d2317e5f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "goodnews.ArticleTableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;goodnews.ArticleTableViewCell&gt;"
+                  moduleName = "goodnews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/julianojosedziadzio/Documents/projetos/goodnews/goodnews/Cells/ArticleTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "C2557B1A-2D9C-4761-91A0-60223FD67759 - e52964d541007a53"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "goodnews.ArticleTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;goodnews.ArticleTableViewCell&gt;"
+                  moduleName = "goodnews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/julianojosedziadzio/Documents/projetos/goodnews/goodnews/Cells/ArticleTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "C2557B1A-2D9C-4761-91A0-60223FD67759 - f631555a8c52f700"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "goodnews.ArticleTableViewCell.__deallocating_deinit"
+                  moduleName = "goodnews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/julianojosedziadzio/Documents/projetos/goodnews/goodnews/Cells/ArticleTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AABAC63-765E-45EA-9EEA-00E6318483D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "goodnews/Service/Webservice.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getArticles(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A57E1FA-DBE5-4E7A-9B28-17C2E88828CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "goodnews/Controllers/NewsListTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09ACC129-EBA7-4DD8-BCBD-6F6DC141AEF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "goodnews/ViewModels/ArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "articleAtIndex(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
